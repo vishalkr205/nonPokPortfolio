@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of W Nongpoknganba Mangang — BTech Computer Science student, Front End Developer, and Cybersecurity enthusiast.">
+    <title>W Nongpoknganba Mangang | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>WNM<span class="logo-bracket"> /&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">
+                    <span class="status-dot"></span>
+                    Open to Opportunities
+                </div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Hi, I'm <span class="gradient-text">Nongpoknganba</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    <span class="typewriter" id="typewriter"></span><span class="cursor-blink">|</span>
+                </p>
+                <p class="hero-description animate-fade-up delay-3">
+                    BTech Computer Science student passionate about building things and solving problems through code. 
+                    Experienced in front-end development, cybersecurity, and AI-focused applications.
+                </p>
+                <div class="hero-actions animate-fade-up delay-4">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Get in Touch
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-up delay-5">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="4">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-up delay-2">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="code-filename">portfolio.js</span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"W Nongpoknganba Mangang"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Frontend Developer"</span>,
+  <span class="code-property">skills</span>: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JS"</span>, <span class="code-string">"Python"</span>],
+  <span class="code-property">passion</span>: <span class="code-string">"Building user-focused apps"</span>,
+  <span class="code-property">coffee</span>: <span class="code-boolean">true</span>,
+  <span class="code-method">buildAwesome</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">"🚀 Let's create!"</span>;
+  }
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Getting to know who I am</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a BTech Computer Science student at <strong>Accurate Institute of Management and Technology</strong>, Greater Noida, 
+                        who enjoys building things and solving problems through code.
+                    </p>
+                    <p>
+                        I have experience with <strong>C, Python, and basic web development</strong>, and I regularly practice data structures 
+                        to improve my skills. I've worked on projects like a chatbot that interacts with users about their daily routine, 
+                        which sparked my interest in AI and user-focused applications.
+                    </p>
+                    <p>
+                        I'm always trying to learn and improve, and I'm looking for an opportunity where I can apply my skills, 
+                        gain real-world experience, and grow as a developer.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Greater Noida, India</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div>
+                            <h4>Education</h4>
+                            <p>BTech CSE (2022 - Present)</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-briefcase"></i></div>
+                        <div>
+                            <h4>Experience</h4>
+                            <p>2 Internships Completed</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-heart"></i></div>
+                        <div>
+                            <h4>Interests</h4>
+                            <p>AI, Web Dev, Cybersecurity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i> Technical Skills
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fab fa-html5"></i> HTML
+                        </span>
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fab fa-css3-alt"></i> CSS
+                        </span>
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fab fa-python"></i> Python
+                        </span>
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fas fa-code"></i> C
+                        </span>
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fab fa-js-square"></i> Basic JavaScript
+                        </span>
+                        <span class="skill-tag skill-tag-primary">
+                            <i class="fas fa-palette"></i> UI Development
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-shield-alt"></i> Security & Cloud
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag skill-tag-accent">
+                            <i class="fas fa-shield-alt"></i> Cyber Security
+                        </span>
+                        <span class="skill-tag skill-tag-accent">
+                            <i class="fas fa-lock"></i> Security Awareness
+                        </span>
+                        <span class="skill-tag skill-tag-accent">
+                            <i class="fab fa-aws"></i> AWS Cloud Computing
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-users"></i> Soft Skills
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag skill-tag-soft">
+                            <i class="fas fa-users-cog"></i> Team Management
+                        </span>
+                        <span class="skill-tag skill-tag-soft">
+                            <i class="fas fa-clock"></i> Time Management
+                        </span>
+                        <span class="skill-tag skill-tag-soft">
+                            <i class="fas fa-comments"></i> Communication
+                        </span>
+                        <span class="skill-tag skill-tag-soft">
+                            <i class="fas fa-headset"></i> Active Listening
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strengths -->
+            <div class="strengths-section">
+                <h3 class="skill-category-title" style="text-align: center; margin-bottom: 2rem;">
+                    <i class="fas fa-bolt"></i> Core Strengths
+                </h3>
+                <div class="strengths-grid">
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fas fa-brain"></i></div>
+                        <h4>Quick Learner</h4>
+                        <p>Adaptable to new technologies like ML and NLP with a growth-oriented mindset.</p>
+                    </div>
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        <h4>Analytical Thinking</h4>
+                        <p>Strong analytical and problem-solving skills applied to complex challenges.</p>
+                    </div>
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fas fa-fire"></i></div>
+                        <h4>Self-Motivated</h4>
+                        <p>Problem-solving drive and self-motivation to continuously learn new skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;experience&gt;</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                <p class="section-subtitle">My professional journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Front End Developer Intern</h3>
+                                <p class="timeline-company">Wit Source Technology</p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May 2025 – Jul 2025</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Noida Sector-65</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Developed user interfaces for web applications using HTML, CSS, and JavaScript</li>
+                            <li>Tested functionality of front-end code across different browsers and platforms</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Web Dev Intern</h3>
+                                <p class="timeline-company">EliteTech Intern</p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Sep 2025 – Oct 2025</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Greater Noida</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Maintained responsive web applications using HTML, CSS, and backend technologies</li>
+                            <li>Attended weekly meetings to discuss progress and future initiatives</li>
+                            <li>Collaborated with other volunteers to create a positive work environment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Things I've built and designed</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="project-title">Notes & Password Manager</h3>
+                    <p class="project-description">
+                        Developed a secure application to store and manage personal notes and passwords efficiently. 
+                        Implemented features like data organization, basic encryption for sensitive information, 
+                        and a user-friendly interface to ensure easy access and improved security.
+                    </p>
+                    <div class="project-tags">
+                        <span>Security</span>
+                        <span>Encryption</span>
+                        <span>Data Management</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="project-title">Shopping Web Page UI</h3>
+                    <p class="project-description">
+                        Built a responsive shopping webpage using HTML & CSS. Designed a clean and user-friendly 
+                        interface with structured layout using Flexbox for optimal content arrangement and 
+                        cross-device compatibility.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Flexbox</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;education&gt;</span>
+                <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                <p class="section-subtitle">Academic background and achievements</p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card education-card-featured">
+                    <div class="education-icon"><i class="fas fa-university"></i></div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Computer Science</h4>
+                        <p class="education-school">Accurate Institute of Management and Technology</p>
+                        <div class="education-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2022 – Present</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Greater Noida</span>
+                        </div>
+                        <div class="education-score">
+                            <span class="score-label">CGPA</span>
+                            <span class="score-value">6.42<span class="score-total"> / 10.0</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <div class="education-content">
+                        <h3>Senior Secondary</h3>
+                        <p class="education-school">Sri Viswasanthi School</p>
+                        <div class="education-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2021 – 2022</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Vijayawada</span>
+                        </div>
+                        <div class="education-score">
+                            <span class="score-label">Percentage</span>
+                            <span class="score-value">78<span class="score-total"> / 100</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <div class="education-content">
+                        <h3>High School</h3>
+                        <p class="education-school">Sri Viswasanthi School</p>
+                        <div class="education-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2019 – 2020</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Vijayawada</span>
+                        </div>
+                        <div class="education-score">
+                            <span class="score-label">Percentage</span>
+                            <span class="score-value">88<span class="score-total"> / 100</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-alt" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;certifications&gt;</span>
+                <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
+                <p class="section-subtitle">Continuous learning and professional development</p>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-server"></i></div>
+                    <h3>Building Model Context Protocol (MCP) Server</h3>
+                    <p class="cert-issuer">BETA</p>
+                    <p class="cert-description">Created custom tools that allow Claude to read and edit documents using the MCP Python SDK.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Front End Developer</h3>
+                    <p class="cert-issuer">Mind Luster</p>
+                    <p class="cert-description">Designed and implemented responsive, user-centric web interfaces.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p class="cert-issuer">Mind Luster</p>
+                    <p class="cert-description">Utilized industry-standard tools like Burp Suite and Nmap to simulate and defend against common cyber attacks.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fab fa-java"></i></div>
+                    <h3>Java Foundations Course</h3>
+                    <p class="cert-issuer">Udemy</p>
+                    <p class="cert-description">Comprehensive Java programming foundations covering core concepts and OOP principles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Let's connect and build something amazing together</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a project in mind, 
+                       a question, or just want to say hi — my inbox is always open!</p>
+                    <div class="contact-links">
+                        <a href="mailto:hostelno.94@gmail.com" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-link-label">Email</span>
+                                <span class="contact-link-value">hostelno.94@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+919366123068" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <span class="contact-link-label">Phone</span>
+                                <span class="contact-link-value">+91 9366123068</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nongpoknganba-mangang-60b047402" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <span class="contact-link-label">LinkedIn</span>
+                                <span class="contact-link-value">Nongpoknganba Mangang</span>
+                            </div>
+                        </a>
+                        <div class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="contact-link-label">Location</span>
+                                <span class="contact-link-value">Greater Noida, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" placeholder="Hey, I'd love to collaborate on..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>WNM<span class="logo-bracket"> /&gt;</span>
+                </a>
+                <div class="footer-social">
+                    <a href="mailto:hostelno.94@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+919366123068" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/nongpoknganba-mangang-60b047402" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="footer-copy">&copy; 2025 W Nongpoknganba Mangang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ===== Typewriter Effect =====
+        const roles = [
+            "Frontend Developer",
+            "BTech CS Student",
+            "Cybersecurity Enthusiast",
+            "Problem Solver"
+        ];
+        let roleIndex = 0, charIndex = 0, isDeleting = false;
+        const typewriterEl = document.getElementById('typewriter');
+
+        function typewrite() {
+            const currentRole = roles[roleIndex];
+            if (isDeleting) {
+                typewriterEl.textContent = currentRole.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typewriterEl.textContent = currentRole.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            let speed = isDeleting ? 40 : 80;
+            if (!isDeleting && charIndex === currentRole.length) {
+                speed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                speed = 500;
+            }
+            setTimeout(typewrite, speed);
+        }
+        typewrite();
+
+        // ===== Navbar Scroll Effect =====
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // ===== Mobile Nav Toggle =====
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // ===== Scroll Animations (Intersection Observer) =====
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-header, .about-text, .about-highlights, .skill-category, .strengths-grid, .timeline-item, .project-card, .education-card, .cert-card, .contact-info, .contact-form').forEach(el => {
+            el.classList.add('reveal');
+            observer.observe(el);
+        });
+
+        // ===== Counter Animation =====
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = entry.target;
+                    const count = parseInt(target.dataset.count);
+                    let current = 0;
+                    const increment = Math.ceil(count / 30);
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= count) {
+                            current = count;
+                            clearInterval(timer);
+                        }
+                        target.textContent = current;
+                    }, 60);
+                    counterObserver.unobserve(target);
+                }
+            });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('.stat-number').forEach(el => counterObserver.observe(el));
+
+        // ===== Smooth Scroll =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // ===== Contact Form Handler =====
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            btn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+            btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+                btn.style.background = '';
+                this.reset();
+            }, 3000);
+        });
+
+        // ===== Active Nav Link on Scroll =====
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY + 100;
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                const id = section.getAttribute('id');
+                const link = document.querySelector(`.nav-link[href="#${id}"]`);
+                if (link) {
+                    link.classList.toggle('active', scrollY >= top && scrollY < top + height);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
